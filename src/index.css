@@ -126,6 +126,7 @@ header > div {
 
 .category {
   margin-bottom: 50px;
+  z-index: -1;
 }
 
 .thumbnail {
@@ -145,13 +146,13 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  z-index: -1;
 }
 
 .top-category {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
   color: var(--green-deliveroo);
   font-size: 14px;
   line-height: 19px;
@@ -320,6 +321,13 @@ h1 {
   padding: 10px;
   box-shadow: 0 10px 5px 5px var(--shadow-grey);
   color: var(--text-dark);
+}
+
+.empty-basket {
+  /*
+  position: sticky;
+  top: 0;
+  z-index: 1; */
 }
 
 .basket i {
